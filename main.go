@@ -27,7 +27,7 @@ func main() {
 			APIVersion: "v1",
 		},
 		ObjectMeta: metav1.ObjectMeta{
-			Name:      "nginx",
+			Name:      "nginx-pod",
 			Namespace: "default",
 			Labels:    map[string]string{
 				"run": "nginx-pod",
